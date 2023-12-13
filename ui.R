@@ -19,7 +19,7 @@ ui <- fluidPage(
     href = "style.css"
   )),
   fluidRow(
-    div(h2("Observation of Different Animal Species in Poland"),
+    div(h2("Observation of Different Animal Species which going to extinct in Poland"),
         
         style = "
         margin: 20px;
