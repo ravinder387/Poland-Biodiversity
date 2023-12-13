@@ -31,7 +31,7 @@ box-shadow:  20px 20px 60px #bebebe,
         ")
   ),
   fluidRow(
-    column(4, div(selectInput("bioinput", "Select Species:",mychoice),
+    column(4, div(selectInput("bioinput", "Select Species:",head(mychoice,99)),
                   imageOutput("myImage"),
                   style = "
         margin: 20px;
